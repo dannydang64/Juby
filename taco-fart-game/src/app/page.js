@@ -115,7 +115,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold">Taco Shooter: Valentine's Edition</h1>
       <p className="mt-2">Shoot the hearts to increase score, avoid the farts!</p>
       <p className="mt-2 text-lg">Controls: Use Left/Right Arrow Keys or A/D to move. Click "Shoot 💘" to shoot hearts.</p>
-      <p className="text-xl font-bold">Score: {score}/5</p>
+      <p className="text-xl font-bold">Score: {score}/69</p>
 
       {winner ? (
         <div className="mt-6">
