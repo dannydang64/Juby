@@ -112,7 +112,7 @@ export default function Home() {
 
   return (
     <div className="relative h-screen w-screen bg-blue-100 overflow-hidden text-center">
-      <h1 className="text-3xl font-bold">Taco Shooter: Valentine's Edition</h1>
+      <h1 className="text-3xl font-bold">JUBY Taco Shooter: Valentine's Edition</h1>
       <p className="mt-2">Shoot the hearts to increase score, avoid the farts!</p>
       <p className="mt-2 text-lg">Controls: Use Left/Right Arrow Keys or A/D to move. Click "Shoot 💘" to shoot hearts.</p>
       <p className="text-xl font-bold">Score: {score}/69</p>
@@ -136,7 +136,7 @@ export default function Home() {
             <div key={heart.id} className="absolute text-red-500 text-3xl" style={{ left: `${heart.x}%`, top: `${heart.y}%` }}>❤️</div>
           ))}
           {farts.map((fart) => (
-            <div key={fart.id} className="absolute text-gray-500 text-3xl" style={{ left: `${fart.x}%`, top: `${fart.y}%` }}>💨</div>
+            <div key={fart.id} className="absolute text-gray-500 text-3xl" style={{ left: `${fart.x}%`, top: `${fart.y}%` }}>🌮</div>
           ))}
           <button onClick={shoot} className="absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-red-500 text-white px-4 py-2 rounded">Shoot 💘</button>
         </>
