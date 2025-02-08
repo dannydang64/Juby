@@ -42,7 +42,7 @@ export default function Home() {
             setScore(6.9)
             setWinner(true);
           }
-          return prev + 1;
+          return prev + .5;
         });
         return false;
       }
