@@ -38,7 +38,7 @@ export default function Home() {
     setHearts((prev) => prev.filter((h) => {
       if (h.y < 30) {
         setScore((prev) => {
-          if (prev + 2 >= 69) {
+          if (prev + 4 >= 69) {
             setScore(69)
             setWinner(true);
           }
