@@ -38,8 +38,8 @@ export default function Home() {
     setHearts((prev) => prev.filter((h) => {
       if (h.y < 30) {
         setScore((prev) => {
-          if (prev + 4 >= 69) {
-            setScore(69)
+          if (prev + .5 >= 6.9) {
+            setScore(6.9)
             setWinner(true);
           }
           return prev + 1;
@@ -115,7 +115,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold">JUBY Taco Shooter: Valentine's Edition</h1>
       <p className="mt-2">Shoot the hearts to increase score, avoid the farts!</p>
       <p className="mt-2 text-lg">Controls: Use Left/Right Arrow Keys or A/D to move. Click "Shoot 💘" to shoot hearts.</p>
-      <p className="text-xl font-bold">Score: {score}/69</p>
+      <p className="text-xl font-bold">Score: {score}/6.9</p>
 
       {winner ? (
         <div className="mt-6">
