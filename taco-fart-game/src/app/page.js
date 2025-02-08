@@ -98,7 +98,7 @@ export default function Home() {
     fairySound.volume = 1.0;
     fairySound.play();
     fairySound.play();
-    setTimeout(() => window.location.reload(), 3000);
+    setTimeout(() => window.location.reload(), 12000);
   };
 
   const showScaryScreen = () => {
@@ -107,7 +107,7 @@ export default function Home() {
     </div>`;
     let audio = new Audio('https://www.myinstants.com/media/sounds/scream.mp3');
     audio.play();
-    setTimeout(() => window.location.reload(), 5000);
+    setTimeout(() => window.location.reload(), 12000);
   };
 
   return (
